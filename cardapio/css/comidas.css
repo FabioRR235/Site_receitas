@@ -1,0 +1,68 @@
+body{
+    background-color: antiquewhite;
+ }
+ 
+ .navbar{
+     align-items: baseline;
+ }
+   .logo{
+     color: #dc3027;
+ }
+ 
+ a.nav-link{
+ font-size: 25px;
+ display: flex;
+ align-items: center;
+ 
+ }
+ .dropdown-menu.show {
+     display: block;
+     font-size: 20px;
+     width: 350px;
+ }
+ /*Opções*/
+   #cursos{
+     list-style: none;
+     color: #f8f9fa;
+     font-size: 30px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content:center;
+     gap: 30px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     margin-left: 150px;
+     margin-right: 150px;
+   }
+   
+   #cursos li{ 
+     width: 300px;
+     height: 400px;
+     background-color: rgb(218, 197, 157);
+    }  
+    #cursos img{
+     position: relative;
+     width: 300px;
+     height: 350px;
+     z-index: 0;
+     border: 5px solid rgb(218, 197, 157);
+     background-color: rgb(218, 197, 157);
+     background-repeat: no-repeat;
+    }
+   #cursos h1{
+     font-size: 25px;
+     font-weight: 50;
+     color: #000000;
+     display: flex;
+     justify-content: center;
+     text-decoration: none;
+   }
+   #cursos li:hover{
+     transform: translateY(-10px);
+     transition: 0.3s;
+     text-decoration: none;
+   }
+  #cursos a:hover{
+     color: #000000;
+  }
