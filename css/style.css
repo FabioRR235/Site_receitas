@@ -36,12 +36,13 @@ align-items: center;
 }
 /*Conteudo*/
 .principal{
- color: white;
+ color: #dc3027;
  font-size: 65px;
  font-family: 'Lato', sans-serif;
  display: flex;
  justify-content: center;
  margin-top: 10%;
+ text-decoration: underline;
 }
 .secundaria{
  color: white;
