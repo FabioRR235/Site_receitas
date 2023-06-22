@@ -41,28 +41,47 @@ body{
      height: 400px;
      background-color: rgb(218, 197, 157);
     }  
-    #cursos img{
-     position: relative;
-     width: 300px;
-     height: 350px;
-     z-index: 0;
-     border: 5px solid rgb(218, 197, 157);
-     background-color: rgb(218, 197, 157);
-     background-repeat: no-repeat;
-    }
-   #cursos h1{
-     font-size: 25px;
-     font-weight: 50;
-     color: #000000;
-     display: flex;
-     justify-content: center;
-     text-decoration: none;
-   }
-   #cursos li:hover{
-     transform: translateY(-10px);
-     transition: 0.3s;
-     text-decoration: none;
-   }
-  #cursos a:hover{
-     color: #000000;
-  }
+.card img{
+  width: 280px;
+  height: 350px;
+  position: relative;
+  transition: 0,5s ease-out;
+  overflow: visible;
+  border: 3px solid #dc3027;
+}
+
+.card-button{
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #dc3027;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+.name-receita{
+  display: flex;
+  justify-content: center;
+  background-color: #dc3027;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 5px 5px 0 0;
+}
+.card-button a{
+  text-decoration: none;
+  color: #f8f9fa;
+  font-size: 20px;
+}
+.card-button a:hover{
+  text-decoration: underline;
+}
+.card:hover .card-button{
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
